@@ -1,0 +1,68 @@
+
+
+/* ==========================================================================
+   ribbonize.js styles
+   ========================================================================== */
+
+
+.ribbon-nav {
+	position: absolute;
+    list-style: none;
+    width: 7vw;
+    min-width: 45px;
+    margin: 0 0 2vh 2vw;
+    padding: 38px 0px 0px 0px;
+    text-align: center;
+    background: url('ribbon-body.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.ribbon-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.ribbon-nav li {
+	width: 5vw;
+    min-width: 45px;
+    height: 8vh;
+    min-height: 45px;
+    margin: auto;
+    font-size: 1vmax;
+    /*background: blue;*/
+}
+
+.ribbon-nav li i;
+.ribbon-nav li img {
+	width: 5vw;
+    height: 5vh;
+    /*background: green*/
+
+}
+
+#toggle-ribbon { 
+    position: absolute;
+    left: 0px;
+/*    bottom: -6vw;*/
+	width: 7vw; 
+    min-width: 45px;
+	height: 7vw;
+    min-height: 45px;
+	cursor: pointer; 
+	background: url('ribbon-footer.png');
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
